@@ -1,0 +1,51 @@
+.welcome
+  position: absolute
+  height: 100%
+  z-index: 999
+  display: flex
+  flex-direction: column
+  color: #ffffff
+  .img-warp
+    position: relative
+    .name
+      display: block
+      position: absolute
+      bottom: .1rem
+      left: 50%
+      margin-left: -.26rem
+      font-size: .18rem
+  .text-warp
+    flex: 0 1 auto
+    display: flex
+    align-items: center
+    height: 100%
+    background: #17181a
+    .logo
+      width: .4rem
+      height: .4rem
+      margin: 0 .25rem
+      img
+        width: 100%
+        height: 100%
+        border-radius: 10px
+    .text
+      display: flex
+      flex-direction: column
+      .title
+        font-size: .2rem
+      .bio
+        color: #75757b
+        font-size: .14rem
+.hide
+  display: none
+.welcome::before
+  display: block
+  content: ''
+  width: 100%
+  height: 100%
+  position: absolute
+  top: 0
+  left: 0
+  background: #000
+  opacity: .25
+  z-index: 10
