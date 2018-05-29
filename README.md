@@ -1,4 +1,4 @@
-# vue-zhihu-ribao
+# vue-zhihu-news
 
 > 这是一个vue.js练手项目
 
